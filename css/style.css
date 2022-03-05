@@ -1,0 +1,67 @@
+/* import archivo black, inter fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap');
+
+/* properties for entire pgae */
+body {
+    font-family: Inter, Helvetica, sans-serif;
+    background-color: #ffe600;
+}
+
+/* main page content */
+main {
+    /* layout on desktop */
+    /* main page content doesn't take up the entire width */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        /* layout on mobile */
+        /* main page content takes up basically the entire width */
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* styles for the header with title/subtitle */
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+header > h1, header > h2 {
+    /* decrease spacing between the lines in the header */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    /* h1, h2 use Archivo Black font */
+    font-weight: bolder;
+    font-family: "Archivo Black", Inter, Arial, Helvetica, sans-serif;
+}
+
+header > h2 {
+    /* h2 in header is italicized */
+    font-style: italic;
+}
+
+a, a:visited {
+    color: rgb(0,0,238);
+}
+
+/* style block quotes for testimonials */
+blockquote {
+    font-style: italic;
+}
+
+.attribution {
+    /* make the attributions for quotes align to right-side */
+    text-align: right;
+    /* add space between the quotes */
+    margin-bottom: 40px;
+}
