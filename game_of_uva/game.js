@@ -61,6 +61,9 @@ function displayDice(){
   let num = rollDice();
   let dice = document.getElementById('dice');
   let dice_image = document.getElementById("die_image");
+
+  let caption_image = document.getElementById("caption_image");
+
   dice_image.src = "dice_"+num.toString()+".jpg";
   dice.appendChild(dice_image);
   document.getElementById(gameTiles.get(currentPosition)[0]).removeChild(piece);
