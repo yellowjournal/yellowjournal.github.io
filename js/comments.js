@@ -44,7 +44,7 @@ let COMMENTS = [
         body: "I've been coaching B-Ball going on 45 years, and I've never seen game like this!"
     },
     {
-        name: "Sissyfuss",
+        name: "Sisyfuss",
         body: "Took a break from work (rock pushing factory lol) to read this... good stuff haha"
     },
     {
