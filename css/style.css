@@ -40,6 +40,16 @@ header > h1, header > h2 {
     margin-bottom: 0;
 }
 
+
+/* styles for centered alert box */
+div.alertbox {
+    text-align: center;
+    border: 4px dashed black;
+    /* space above and below the box */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 h1, h2 {
     /* h1, h2 use Archivo Black font */
     font-weight: bolder;
