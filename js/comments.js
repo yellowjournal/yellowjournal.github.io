@@ -70,6 +70,14 @@ let COMMENTS = [
     {
         name: "Drake",
         body: "It's drizzy... I got locked out of some accounts and need just a few hundred to sort out my affairs... I'll reward you tenfold if you help me out!"
+    },
+    {
+        name: "ErtBellis75",
+        body: "Just wait until the Board of Visitors learns of this malarkey."
+    },
+    {
+        name: "PierreDelecto",
+        body: "C'est moi"
     }
 ];
 
