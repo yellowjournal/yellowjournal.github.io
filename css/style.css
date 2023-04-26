@@ -10,10 +10,18 @@ body {
 /* main page content */
 main {
     /* layout on desktop */
-    /* main page content doesn't take up the entire width */
+
+    /* to help with readability,
+     * main page content doesn't take up the entire width */
     max-width: 1000px;
+
+    /* center horizontally */
     margin-left: auto;
     margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
     font-size: 1.2rem;
     padding-bottom: 100px;
 }
@@ -21,10 +29,8 @@ main {
 @media only screen and (max-width: 768px) {
     main {
         /* layout on mobile */
-        /* main page content takes up basically the entire width */
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* main page content takes up entire width */
+        max-width: none;
     }
 }
 
