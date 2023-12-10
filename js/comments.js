@@ -8,10 +8,6 @@ let COMMENTS = [
         body: "Hello sexy .. see my pics at https://thecavalierdaily.com/"
     },
     {
-        name: "Small Liz Magill",
-        body: "Please send small Bodo's bagels to UPenn! I am so small"
-    },
-    {
         name: "Jim Ryan",
         body: "I don't even feel bad for stealing that punk's popsicle >:)"
     },
